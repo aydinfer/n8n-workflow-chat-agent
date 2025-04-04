@@ -1,0 +1,32 @@
+{
+  "name": "n8n-workflow-chat-agent",
+  "version": "0.1.0",
+  "description": "An n8n chat agent that creates workflows and AI agents with MCPs from natural language or mermaid diagrams",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "n8n",
+    "workflow",
+    "mcp",
+    "chat",
+    "agent",
+    "mermaid"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mermaid": "^10.6.1",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
